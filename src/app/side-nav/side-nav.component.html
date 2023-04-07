@@ -1,0 +1,18 @@
+
+<aside class="w-80" aria-label="Sidebar">
+    <div class="overflow-y-auto py-4 px-3 bg-gray-50 rounded dark:bg-gray-800">
+       <ul *ngFor="let item of sideNavList" class="space-y-2">
+          <li>
+            <a routerLink="{{item.route}}" class="flex items-center p-2 text-base font-normal text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700">
+              
+               <a class="flex-1 ml-3 whitespace-nowrap">{{item.icon}}</a>
+               <a class="flex-1 ml-3 whitespace-nowrap">  {{item.name}}</a>
+            </a>
+          </li> 
+       </ul>
+    </div>
+ </aside>
+
+
+ 
+ 
