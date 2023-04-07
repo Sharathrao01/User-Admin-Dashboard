@@ -1,0 +1,27 @@
+[
+    {
+        "id":1,
+        "icon":{"c": "fa-500px", "l": "500px"},
+        "route":"/details",
+        "name": "Details"
+    },
+    {
+        "id":2,
+        "icon":"Icon2",
+        "route":"/accounts",
+        "name": "Account Settings"
+    },
+    {
+        "id":3,
+        "icon":"Icon3",
+        "route":"/api-usages",
+        "name": "API Usage"
+    },
+    {
+        "id":4,
+        "icon":"Icon4",
+        "route":"/my-subscription",
+        "name": "My Subscriptions"
+    }
+
+]

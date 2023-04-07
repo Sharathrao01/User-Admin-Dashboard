@@ -1,0 +1,53 @@
+<!-- <p>client-details works!</p> -->
+
+
+
+<!-- <div *ngIf="router.url ==='/organization'">
+  <app-main-page ></app-main-page>
+</div> -->
+
+<app-main-nav-bar></app-main-nav-bar>
+<app-nav-bar></app-nav-bar>
+<app-profile></app-profile>
+<div class="flex items-stretch ">
+<app-org-side-nav class="mr-10"></app-org-side-nav>
+
+
+<div *ngIf="'/details'">
+<div class="mr-40 bg-slate-50 block rounded-lg overflow-hidden"  >
+    <ul class="inline-flex space-x-[20%]">
+      <li>
+          <h2 class="text-lg font-semibold">organization</h2>
+  <span class="flex items-center space-x-1">
+  
+      <span  class=" w-40  dark:text-gray-400">ABC company</span>
+  </span>
+  
+      </li>
+      <li>
+          <h2 class="text-lg w-80 font-semibold">number of clients</h2>
+  <span class="flex items-center space-x-1">
+  <a rel="noopener noreferrer" href="#" class="text-md hover:underline dark:text-gray-400">0x 00xx</a>
+  </span>
+      </li>
+  </ul>
+  </div>
+  
+  <div class="container">
+  
+  <div class="mt-10 flex ">
+    <div class="block">
+      <h3 class=" text-lg font font-semibold mt">API Requests</h3>
+      <a class="mt-4"href="ClientEmail">0xff 00xx</a>
+    </div>
+    <div class="block ml-20">
+      <h3 class=" text-lg font font-semibold mt">Registration number</h3>
+      <a class="mt-4"href="ClientEmail">1234 XXXX 0000</a>
+    </div>
+    
+  
+  </div>
+  
+  </div>
+</div>
+</div>

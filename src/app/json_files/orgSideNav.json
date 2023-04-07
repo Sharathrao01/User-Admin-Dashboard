@@ -1,0 +1,27 @@
+[
+    {
+        "id":1,
+        "icon":{"c": "fa-500px", "l": "500px"},
+        "route":"/client-details",
+        "name": "Client Details"
+    },
+    {
+        "id":2,
+        "icon":"Icon2",
+        "route":"/org-details",
+        "name": "Org Details"
+    },
+    {
+        "id":3,
+        "icon":"Icon3",
+        "route":"/api-details",
+        "name": "API Details"
+    },
+    {
+        "id":4,
+        "icon":"Icon4",
+        "route":"/settings",
+        "name": "Settings"
+    }
+
+]

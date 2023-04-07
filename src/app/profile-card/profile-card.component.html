@@ -1,0 +1,13 @@
+ <div>
+    <app-details *ngIf="router.url==='/details'"></app-details>
+    <app-account-details *ngIf="router.url==='/accounts'"></app-account-details>
+    <app-api-usages *ngIf="router.url ==='/api-usages'"></app-api-usages>
+    <app-my-subscription *ngIf="router.url ==='/my-subscription'"></app-my-subscription>
+     
+  
+    
+    <!-- <app-main-page *ngIf="router.url ==='/dashboard'"></app-main-page> -->
+
+    <app-client-details *ngIf="router.url==='/client-details'"></app-client-details>
+
+</div>

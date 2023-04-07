@@ -1,0 +1,40 @@
+.container{
+    padding-top: 30px; 
+    /* 40px */
+    display: flex;
+    font-size: large;
+    font-weight: bold;
+    margin-left: 50%;
+    
+
+}
+.list-items{
+    display: flex;
+    font-size: large;
+    font-weight: bold;
+
+}
+li{
+    margin-right: 30px;
+    text-decoration: none;
+    list-style: none;
+    
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.primary-element{
+    padding: 30px;
+    /* 35px */
+    color: #757575;
+    font-weight: 500;
+
+}
+.nav-bar{
+    background-color: rgb(94, 124, 129);
+    height: 80px;
+    /* 100px */
+}
+
+
